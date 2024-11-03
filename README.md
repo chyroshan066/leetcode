@@ -20,3 +20,5 @@
 ### Basic Array Transformations
 
 + Given an integer array arr and a mapping function fn, return a new array such that returnedArray[i] = fn(arr[i], i). Solve it without the built-in Array.map method.
+
++ Given an integer array arr and a filtering function fn, return a filtered array filteredArr which should only contain the elements from the arr for which the expression fn(arr[i], i) evaluates to a truthy value. Solve it without the built-in Array.filter method.
