@@ -16,3 +16,7 @@
     - increment() increases the current value by 1 and then returns it.
     - decrement() reduces the current value by 1 and then returns it.
     - reset() sets the current value to init and then returns it.
+
+### Basic Array Transformations
+
++ Given an integer array arr and a mapping function fn, return a new array such that returnedArray[i] = fn(arr[i], i). Solve it without the built-in Array.map method.
