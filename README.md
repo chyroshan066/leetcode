@@ -34,3 +34,9 @@
 + Given a function fn, return a new function that is identical to the original function except that it ensures fn is called at most once.
     - The first time the returned function is called, it should return the same result as fn.
     - Every subsequent time it is called, it should return undefined.
+
++ Given a function fn, return a memoized version of that function. A memoized function is a function that will never be called twice with the same inputs. Instead it will return a cached value.
+
+### Promises and Time
+
++ Given two promises promise1 and promise2, return a new promise. promise1 and promise2 will both resolve with a number. The returned promise should resolve with the sum of the two numbers.
