@@ -30,3 +30,7 @@
 + Given an array of functions [f1, f2, f3, ..., fn], return a new function fn that is the function composition of the array of functions. The function composition of an empty list of functions is the identity function f(x) = x. You may assume each function in the array accepts one integer as input and returns one integer as output.
 
 + Write a function argumentsLength that returns the count of arguments passed to it.
+
++ Given a function fn, return a new function that is identical to the original function except that it ensures fn is called at most once.
+    - The first time the returned function is called, it should return the same result as fn.
+    - Every subsequent time it is called, it should return undefined.
